@@ -1,5 +1,5 @@
 # RFM-Saved-Search <br>
-![alt text](https://img.shields.io/github/last-commit/myatviz/RFM-Saved-Search) <br><br>
+![alt text](https://img.shields.io/github/last-commit/myatviz/RFM-Saved-Search)  ![alt text](https://img.shields.io/github/repo-size/myatviz/RFM-Saved-Search) <br><br>
 😉 **What is RFM?** <br>
 
 RFM segmentation allows marketers to target specific clusters of customers with communications that are much more relevant for their particular behavior
