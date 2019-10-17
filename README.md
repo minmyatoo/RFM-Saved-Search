@@ -56,3 +56,5 @@ Field : Document Number , Summary Type = Count , Label = Orders
 <br><br>
 Field : Amount , Summary Type = Sum , Label = Amount
 <br><br>
+
+😎Thanks for visiting
