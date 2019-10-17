@@ -19,10 +19,7 @@ Sort by = Amount <br><br>
 <br><br>
 
 Field : Name , Summary Type = Group By , Label = Customer Name <br>
-Field : Formula(Percent) , Summary Type = Sum , 
-`PERCENT_RANK() OVER(ORDER BY ROUND({today}-MAX({trandate})) DESC)`
-, Label = %Recency
-<br><br>
+
 Field : Formula(Percent) , Summary Type = Sum , 
 `PERCENT_RANK() OVER(ORDER BY SUM({internalid}) ASC)`
 , Label = %Recency
