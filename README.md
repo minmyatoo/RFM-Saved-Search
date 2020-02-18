@@ -1,12 +1,11 @@
 # RFM-Saved-Search <br>
 ![alt text](https://img.shields.io/github/last-commit/myatviz/RFM-Saved-Search)  ![alt text](https://img.shields.io/github/repo-size/myatviz/RFM-Saved-Search) <br><br>
-😉 **What is RFM?** <br>
+**What is RFM?** 👀 <br> 
 
-RFM segmentation allows marketers to target specific clusters of customers with communications that are much more relevant for their particular behavior
+RFM segmentation allows marketers to target specific clusters of customers with communications that are much more relevant for their particular behavior.
 
 ![alt text](https://i.imgur.com/p6mmpcg.png)
 Reports > Saved Searches > All Saved Searches > New
-
 
 **Search Title = RFM Analysis** 
 
@@ -57,5 +56,7 @@ Field : Document Number , Summary Type = Count , Label = Orders
 <br><br>
 Field : Amount , Summary Type = Sum , Label = Amount
 <br><br>
+###Remark
+> I used 555 RFM value is the best instead of 111 RFM value. 
 
-😎 Thanks
+Thanks 🦄
