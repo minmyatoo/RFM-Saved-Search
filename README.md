@@ -1,19 +1,25 @@
-# RFM-Saved-Search <br>
+# RFM Analysis in Saved Search <br>
+
 ![alt text](https://img.shields.io/github/last-commit/myatviz/RFM-Saved-Search)  ![alt text](https://img.shields.io/github/repo-size/myatviz/RFM-Saved-Search) <br><br>
-**What is RFM?** 👀 <br> 
+**What is RFM?** 👀 <br>
+
+![credit RAA](https://www.retailreco.com/blog/wp-content/uploads/2018/11/RFM-Analytics.jpg)
 
 RFM segmentation allows marketers to target specific clusters of customers with communications that are much more relevant for their particular behavior.
 
+##### How to create RFM in NetSuite Saved Search?
+
 ![alt text](https://i.imgur.com/p6mmpcg.png)
+
 Reports > Saved Searches > All Saved Searches > New
 
-**Search Title = RFM Analysis** 
+<u>**Search Title = RFM Analysis**</u> 
 
-**Criteria** : Type = Invoice , Tax Line = false , Main Line = false
+<u>**Criteria**</u> : Type = Invoice , Tax Line = false , Main Line = false
 
 ![alt text](https://i.imgur.com/FdMtYEc.png)
 
-**Results:** <br><br>
+<u>**In Results:**</u> <br><br>
 Sort by = Amount <br><br>
 ![alt text](https://i.imgur.com/Nv1JuCC.png)
 <br><br>
@@ -21,11 +27,11 @@ Sort by = Amount <br><br>
 Field : Name , Summary Type = Group By , Label = Customer Name <br>
 
 Field : Formula(Percent) , Summary Type = Sum , 
-`PERCENT_RANK() OVER(ORDER BY SUM({internalid}) ASC)`
+``PERCENT_RANK() OVER(ORDER BY SUM({internalid}) ASC)``
 , Label = %Recency
 <br><br>
 Field : Formula(Percent) , Summary Type = Sum , 
-`PERCENT_RANK() OVER(ORDER BY ROUND({today}-MAX({trandate})) DESC)`
+``PERCENT_RANK() OVER(ORDER BY ROUND({today}-MAX({trandate})) DESC)``
 , Label = %Frequency
 <br><br>
 Field : Formula(Percent) , Summary Type = Sum , 
@@ -57,6 +63,7 @@ Field : Document Number , Summary Type = Count , Label = Orders
 Field : Amount , Summary Type = Sum , Label = Amount
 <br><br>
 ###Remark
+
 > I used 555 RFM value is the best instead of 111 RFM value. 
 
-Thanks 🦄
+Have Fun! 🦄
