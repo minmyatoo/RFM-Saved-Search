@@ -5,7 +5,11 @@
 
 ![credit RAA](https://www.retailreco.com/blog/wp-content/uploads/2018/11/RFM-Analytics.jpg)
 
-RFM segmentation allows marketers to target specific clusters of customers with communications that are much more relevant for their particular behavior.
+RFM segmentation allows marketers to target specific clusters of customers with communications that are much more relevant for their particular behavior. RFM (Recency, Frequency, and Monetary) segmentation is a popular customer segmentation method used in marketing to identify the most valuable customers and target them with relevant communications. The idea behind RFM segmentation is that past behavior is the best indicator of future behavior, so it groups customers based on their purchase history, including how recently they purchased, how often they purchase, and how much they spend.
+
+By segmenting customers into different groups based on their RFM scores, marketers can create targeted communications that are much more relevant and effective. For example, customers who have recently purchased and spend a lot of money might receive a "VIP customer" offer, while customers who haven't made a purchase in a while might receive a "win-back" offer.
+
+Overall, RFM segmentation is a valuable tool for marketers looking to improve their customer engagement and drive more sales.
 
 ##### How to create RFM in NetSuite Saved Search?
 
